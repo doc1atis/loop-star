@@ -7,8 +7,17 @@ function makeList(event) {
 
   const inputBox = document.querySelector('.user-input');
   const num = inputBox.value;
+  let numy = Number(num)
+  while (numy >= 0) {
+    addNewLI(numy)
+    if (numy % 2 === 0) {
+      makeLatestLIBold()
+    }
+    numy--
 
-  
+      
+    }
+  5
 
 }
 
